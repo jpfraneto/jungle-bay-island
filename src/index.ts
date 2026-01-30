@@ -158,7 +158,7 @@ const app = new Hono();
 
 // Token Pool Configuration
 const TOKEN_POOL = {
-  total: parseInt(process.env.TOKEN_POOL_TOTAL || "100000000", 10),
+  total: parseInt(process.env.TOKEN_POOL_TOTAL || "55555555", 10),
   symbol: process.env.TOKEN_SYMBOL || "JBM",
   distributed: 0,
   distributions: new Map<string, number>(),
