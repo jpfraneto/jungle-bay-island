@@ -1,0 +1,4 @@
+# Use Node 22 on Railway. Nixpacks Node provider reads this at build time.
+# Also set NIXPACKS_NODE_VERSION=22 in Railway dashboard if the provider doesn't pick it up.
+[variables]
+NIXPACKS_NODE_VERSION = "22"
