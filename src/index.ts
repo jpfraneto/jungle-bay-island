@@ -1062,6 +1062,8 @@ function setupSocketIO(httpServer: ReturnType<typeof createServer>) {
 // START SERVER
 // ============================================
 
+console.log("🚀 Server deployment v2 - " + new Date().toISOString());
+
 const port = parseInt(process.env.PORT || "3000", 10);
 
 // Create HTTP server that handles both Hono and Socket.io
